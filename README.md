@@ -15,16 +15,13 @@ import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 
 import numpy as np
-
-# Given matrix
+Given matrix
 matrix = [[5, -3, -10],
           [2, 2, -3],
           [-3, -1, 5]]
-
-# Find rank of matrix
+Find rank of matrix
 rank = np.linalg.matrix_rank(matrix)
-
-# Print result
+Print result
 print(rank)
 ## Output:
 
